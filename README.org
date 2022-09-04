@@ -1,10 +1,10 @@
 * Fall 2022 - Lab 02
 
-* Last name:Prova
+* Last name: Prova
 
-* First name:Anita
+* First name: Anita
 
-* GitHub username:anitaprova
+* GitHub username: anitaprova
 
 * Notes:
 
