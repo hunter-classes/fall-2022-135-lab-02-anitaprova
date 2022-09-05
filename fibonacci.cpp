@@ -17,3 +17,7 @@ int main()
 		cout << fib[i] << endl;
 	}	
 }
+
+/* After two billion, some of the numbers are negatives. I think this is because the  
+ * biggest number an int can hold is 2147483647.  
+ */
