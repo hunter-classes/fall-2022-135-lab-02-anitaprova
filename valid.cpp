@@ -1,19 +1,18 @@
 #include <iostream>
 #include <cmath>
-using namespace std;
 
 int main()
 {
-	cout << "Please enter an integer: ";
+	std::cout << "Please enter an integer: ";
 	int num = 0;
-	cin >> num;
+	std::cin >> num;
 
 	while (num <= 0 || num >= 100)
 	{
-		cout << "Please enter an integer: ";
-        	cin >> num;	
+		std::cout << "Please enter an integer: ";
+		std::cin >> num;	
 	}
 
 	num = pow(num,2);
-	cout << "Number squared is " << num << endl;
+	std::cout << "Number squared is " << num << std::endl;
 }
