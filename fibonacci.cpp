@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 
 int main()
 {
@@ -14,7 +13,7 @@ int main()
 
 	for (int i = 0; i < 60; i++)
 	{
-		cout << fib[i] << endl;
+		std::cout << fib[i] << std::endl;
 	}	
 }
 
