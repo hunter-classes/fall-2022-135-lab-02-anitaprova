@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 
 int main()
 {
@@ -14,19 +13,19 @@ int main()
 	do {
 		for (int i = 0; i < 10; i++)
 		{
-			cout << myData[i] << " ";
+			std::cout << myData[i] << " ";
 		}
-		cout << "\nInput index: ";
-		cin >> index;
+			std::cout << "\nInput index: ";
+			std::cin >> index;
 		if (index >= 0 && index < 10)
 		{
-			cout << "Input value: ";
-			cin >> val;
+			std::cout << "Input value: ";
+			std::cin >> val;
 			myData[index]=val;
 		}
 		else
 		{
-			cout << "Index out of range. Exit." << endl;
+			std::cout << "Index out of range. Exit." << std::endl;
 			break;
 		}
 	}
